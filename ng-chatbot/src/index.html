@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NgChatbot</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!--<link rel="stylesheet" href="styles.css">-->
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+
+  <style>
+    .message {
+      border-radius: 50px;
+      margin: 0 15px 10px;
+      padding: 15px 20px;
+      position: relative;
+      font-weight: bold;
+    }
+    .message.to {
+      background-color: #2095FE;
+      color: #fff;
+      margin-left: 100px;
+      text-align: right;
+    }
+    .message.from {
+      background-color: #E5E4E9;
+      color: #363636;
+      margin-right: 100px;
+
+    }
+    .message.to + .message.to,
+    .message.from + .message.from {
+      margin-top: -10px;
+    }
+  </style>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

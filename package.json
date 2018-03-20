@@ -1,0 +1,23 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumepn/chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillaumepn/chatbot/issues"
+  },
+  "homepage": "https://github.com/guillaumepn/chatbot#readme",
+  "devDependencies": {
+    "api-ai-javascript": "^2.0.0-beta.21"
+  }
+}
